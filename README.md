@@ -1,41 +1,17 @@
-# oit-movies
+# OIT_code_challenge
 
-This template should help get you started developing with Vue 3 in Vite.
+Code Challenge for BYU OIT Software Developer Application
 
-## Recommended IDE Setup
+During the 4 hours, I spent time studying Vue as I have never used this framework before. Additional time was spent with first time set up for the Vue framework.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+After learning how Vue creates and uses components I created 2 components (both in webapp due to time constraints) that are called onto the main App.vue page.
 
-## Customize configuration
+In Form.vue, I originally created a form to capture user input. Later in my study I discovered that v-model is a shortcut way of capturing user input into a variable. This is why the file is named Form when no form element is used.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+In Form.vue I verified the the input was being captured by having an element dynamically display the user's query. I was unable to verify the query correctly being sent to the API due to errors I did not have time to remedy.
 
-## Project Setup
+In Display.vue, I planned on displaying the information of the queried movie. The component correctly gets imported into App.vue. I have also managed to correctly perform an API call sending a request and receiving a response for the movie "Fight Club" from themoviedb.org
 
-```sh
-npm install
-```
+Unfortunately, I have been unable to format response. Everytime I try to select certain elements of the JSON (such as "title"), my Vue project breaks prompting a hard refresh.
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Finally, I apologize for any difficulty checking the this program. VS Code was having difficulty with Git so I had to manually upload my files. 
