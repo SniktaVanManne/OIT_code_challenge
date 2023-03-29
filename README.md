@@ -4,9 +4,11 @@ Code Challenge for BYU OIT Software Developer Application
 
 The files I created/edited are as follows: 
 
-src/App.vue
-src/webapp/Form.vue
-src/webapp/Display.vue
+1. src/App.vue
+
+2. src/webapp/Form.vue
+
+3. src/webapp/Display.vue
 
 During the 4 hours, I spent time studying Vue as I have never used this framework before. Additional time was spent with first time set up for the Vue framework.
 
